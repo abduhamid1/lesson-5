@@ -1,0 +1,53 @@
+// header start
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background: #008F76;
+    z-index: 111111;
+
+    .nav {
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__list {
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+
+            &__item {
+                padding: 20px;
+                text-align: center;
+
+                &__link {
+                    text-decoration: none;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 200%;
+                    /* identical to box height, or 32px */
+
+                    text-align: center;
+
+                    color: #F5F5FF;
+                }
+
+                .masuk {
+                    border: 1px solid white;
+                    padding: 20px;
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
+}
+
+// nav start
+
+// nav end
+// header end

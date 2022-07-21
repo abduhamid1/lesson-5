@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+.mem {
+    background: linear-gradient(180deg, #F6F5FF 0%, #FFFFFF 100%);
+
+    &__top {
+        padding-top: 100px;
+
+        h2 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 200%;
+            /* identical to box height, or 48px */
+
+            text-align: center;
+
+            color: #212121;
+
+            span {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 200%;
+                /* identical to box height, or 48px */
+
+                text-align: center;
+
+                color: $bg;
+            }
+
+        }
+    }
+
+    &__figure {
+        padding-top: 48px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &__card {
+            width: 530px;
+            padding: 30px;
+            background: #FFFFFF;
+            box-shadow: 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+                0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+                0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+                0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+            border-radius: 5px;
+
+            &__title {
+                width: 400px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 450;
+                font-size: 16px;
+                line-height: 200%;
+                /* or 32px */
+
+
+                color: #212121;
+
+                span {
+                    color: black;
+                    font-weight: 800;
+                }
+            }
+            &__cards{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                span{
+                    margin-left: 16px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 200%;
+                    /* identical to box height, or 32px */
+
+
+                    color: #000000;
+                }
+                
+            }
+        }
+    }
+    &__end{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        padding: 100px 0;
+        &__cards{
+            display: flex;
+            align-items: center;
+            .text{
+                margin-left: 16px;
+                .button {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 32px;
+                    line-height: 200%;
+                    /* identical to box height, or 64px */
+
+                    text-align: center;
+
+                    color: #212121;
+                }
+                .button2{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 200%;
+                    /* identical to box height, or 32px */
+
+
+                    color: #949494;
+                }
+            }
+        }
+    }
+}
